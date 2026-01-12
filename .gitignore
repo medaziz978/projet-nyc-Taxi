@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Data
+*.csv
+*.parquet
+*.json
+!dashboard.json
+data/
+raw_data/
+processed_data/
+yellow_tripdata*
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
